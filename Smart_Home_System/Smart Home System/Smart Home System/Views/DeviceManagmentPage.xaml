@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Smart_Home_System.ViewModel"
+             mc:Ignorable="d"
+             x:Class="Smart_Home_System.Views.DeviceManagmentPage">
+    <ContentPage.BindingContext>
+        <local:DeviceManagmentViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="LabelStyle">
+            <Setter Property="FontSize" Value="Medium"></Setter>
+        </Style>
+        <Style TargetType="Button" x:Key="ButtonStyle">
+            <Setter Property="FontSize" Value="Medium"></Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Button Command="{Binding RecreateDeviceListCommand}" 
+                    Text="Recreate Devices"
+                    Style="{StaticResource ButtonStyle}"
+                    CornerRadius="40"
+                    HeightRequest="40"
+                    WidthRequest="40"/>
+            <Button Command="{Binding DeleteDeviceListCommand}" 
+                    Text="Delete Devices"
+                    Style="{StaticResource ButtonStyle}"
+                    CornerRadius="40"
+                    HeightRequest="40"
+                    WidthRequest="40"/>
+            <ListView x:Name="DevicesListView" ItemsSource="{Binding DevicesOBCollection}"
+                      ItemTapped="OnDeviceTapped">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Grid Padding="10" RowSpacing="10" ColumnSpacing="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="*" />
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Grid.Column="0"
+                                       Style="{StaticResource LabelStyle}"
+                                       Text="{Binding Name}"
+                                       VerticalOptions="Center"/>
+                                <Frame Grid.Column="2"
+                                       Padding="0"
+                                       VerticalOptions="Center"
+                                       HorizontalOptions="End"
+                                       x:Name="FrameOnline"
+                                       BackgroundColor="Red"
+                                       CornerRadius="100"
+                                       HeightRequest="20"
+                                       WidthRequest="20">
+                                    <Frame.Style>
+                                        <Style TargetType="Frame">
+                                            <Style.Triggers>
+                                                <DataTrigger TargetType="Frame" Binding="{Binding PowerOn}" Value="false">
+                                                    <Setter Property="BackgroundColor" Value="Red"/>
+                                                </DataTrigger>
+                                                <DataTrigger TargetType="Frame" Binding="{Binding PowerOn}" Value="true">
+                                                    <Setter Property="BackgroundColor" Value="Green"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </Frame.Style>
+                                </Frame>
+                                
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

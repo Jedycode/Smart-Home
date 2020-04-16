@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="Smart_Home_System.MainPage"
+             BackgroundImage="HouseBackground3.png">
+
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem IconImageSource="IotDevices.png"
+                     Priority="0"
+                     Order="Primary"
+                     Clicked="Devices_Button_Clicked"/>
+        <ToolbarItem IconImageSource="Script.png"
+                     Priority="1"
+                     Order="Primary"
+                     Clicked="Scripts_Button_Clicked"/>
+        <ToolbarItem IconImageSource="HousePlan.png"
+                     Priority="2"
+                     Order="Primary"
+                     Clicked="HouseMap_Button_Clicked"/>
+
+    </ContentPage.ToolbarItems>-->
+    <NavigationPage.TitleView>
+        <AbsoluteLayout VerticalOptions="CenterAndExpand">
+            <ImageButton Source="IotDevices.png" 
+                         Clicked ="Devices_Button_Clicked" 
+                         AbsoluteLayout.LayoutFlags="PositionProportional"
+                         AbsoluteLayout.LayoutBounds="0,0,40,40" 
+                         BackgroundColor="#0000"/>
+            <ImageButton Source="Script.png" 
+                         Clicked ="Scripts_Button_Clicked" 
+                         AbsoluteLayout.LayoutFlags="PositionProportional"
+                         AbsoluteLayout.LayoutBounds="1,0,40,40"
+                         BackgroundColor="#0000"/>
+            <ImageButton Source="HousePlan.png"
+                         Clicked ="HouseMap_Button_Clicked" 
+                         AbsoluteLayout.LayoutFlags="PositionProportional"
+                         AbsoluteLayout.LayoutBounds="0.8,0,40,40"
+                         BackgroundColor="#0000"/>
+        </AbsoluteLayout>
+    </NavigationPage.TitleView>
+    <StackLayout Orientation="Vertical" Spacing="0" BackgroundColor="#0000">
+        <StackLayout Padding="20,30,0,40">
+            <StackLayout Orientation="Horizontal" Spacing="0" Padding="0,0,5,0">
+                <Label TextColor="WhiteSmoke" FontSize="25" Text="Hello" HorizontalOptions="StartAndExpand" VerticalOptions="Center"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal" Padding="0,10,0,0">
+                <Label TextColor="WhiteSmoke" FontSize="20" Text="What can i do for you?" HorizontalOptions="StartAndExpand" VerticalOptions="Center" />
+            </StackLayout>
+        </StackLayout>
+        <Frame     CornerRadius="40"
+                   HorizontalOptions="FillAndExpand"
+                   VerticalOptions="FillAndExpand"
+                   Padding="20"
+                   BackgroundColor="#95cfdb">
+            <Grid HorizontalOptions="FillAndExpand" RowSpacing="10" ColumnSpacing="10" Padding="0,0,0,0">
+                <Frame Grid.Column="0" Grid.Row="0" CornerRadius="40">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped="OnHouseSecurityTapped"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Image Source="HouseSecurity.png" HeightRequest="100"/>
+                        <Label FontSize="Medium" Text="Security" Padding ="0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="0" CornerRadius="40" >
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped="OnLightsTapped"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Lights.png" HeightRequest="100"/>
+                        <Label FontSize="Medium" Text="Lights" Padding ="0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+                <Frame Grid.Column="0" Grid.Row="1" CornerRadius="40">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped="OnTemperatureTapped"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Temperature.png" HeightRequest="100"/>
+                        <Label FontSize="Medium" Text="Temperature" Padding ="0" HorizontalOptions="Center" />
+                    </StackLayout>
+                </Frame>
+                <Frame Grid.Column="1" Grid.Row="1" CornerRadius="40">
+                    <Frame.GestureRecognizers>
+                        <TapGestureRecognizer 
+                            Tapped="OnHouseLouversTapped"/>
+                    </Frame.GestureRecognizers>
+                    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+                        <Image Source="Louvers.png" HeightRequest="100"/>
+                        <Label FontSize="Medium" Text="Louvers" Padding ="0" HorizontalOptions="Center"/>
+                    </StackLayout>
+                </Frame>
+            </Grid>
+        </Frame>
+    </StackLayout>
+
+</ContentPage>

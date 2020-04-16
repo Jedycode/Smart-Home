@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:local="clr-namespace:Smart_Home_System.ViewModel"
+             mc:Ignorable="d"
+             x:Class="Smart_Home_System.Views.TemperatureMenuPage">
+    <ContentPage.BindingContext>
+        <local:TemperatureDevicesListViewModel/>
+    </ContentPage.BindingContext>
+    <ContentPage.Resources>
+        <Style TargetType="Label" x:Key="LabelStyle">
+            <Setter Property="FontSize" Value="Medium"></Setter>
+        </Style>
+    </ContentPage.Resources>
+    <ContentPage.Content>
+        <StackLayout>
+            <Frame HeightRequest="70" 
+                   WidthRequest="200"
+                   CornerRadius="80"
+                   HorizontalOptions="Fill"
+                   Margin="15" Padding="20"
+                   BackgroundColor="Maroon">
+                <Label Text="Temperature Menu"
+                       FontSize="25"
+                       FontFamily="BalooDa2-Regular"
+                       TextColor="White"
+                       HorizontalOptions="Center"
+                       VerticalOptions="Center"
+                       HorizontalTextAlignment="Center"
+                       VerticalTextAlignment="Center" />
+            </Frame>
+            <ListView x:Name="TemperatureDevices" ItemsSource="{Binding TemperatureDevicesList, Mode=TwoWay}">
+                <ListView.ItemTemplate>
+                    <DataTemplate x:Name="DataTemplateTemp">
+                        <ViewCell x:Name="ViewCellElement">
+                            <Grid x:Name="DeviceElement" Padding="10" RowSpacing="0" ColumnSpacing="10">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="Auto"/>
+                                    <RowDefinition Height="*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="Auto"/>
+                                    <ColumnDefinition Width="*"/>
+                                </Grid.ColumnDefinitions>
+                                <Label Style="{StaticResource LabelStyle}" 
+                                       Grid.Column="1"
+                                       Text="{Binding Name, Mode=TwoWay}"
+                                       VerticalOptions="End"/>
+                                <Switch HorizontalOptions="EndAndExpand"
+                                        Grid.Column="2"
+                                        x:Name="PowerSwitch"
+                                        IsToggled ="{Binding PowerOn, Mode=TwoWay}"
+                                        Toggled="ToggleAction"/>
+
+
+                            </Grid>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

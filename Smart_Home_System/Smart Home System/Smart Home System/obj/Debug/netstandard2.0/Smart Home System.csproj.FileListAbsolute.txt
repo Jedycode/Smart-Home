@@ -1,0 +1,14 @@
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart Home System.deps.json
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart Home System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\ref\Smart Home System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart Home System.pdb
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart Home System.AssemblyInfoInputs.cache
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart Home System.AssemblyInfo.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart Home System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\ref\Smart Home System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart Home System.pdb
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart Home System.csprojAssemblyReference.cache
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\TemperatureMenuPage.xaml.g.cs

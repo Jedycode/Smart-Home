@@ -1,0 +1,59 @@
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.AssemblyInfoInputs.cache
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.AssemblyInfo.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.deps.json
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\ref\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.pdb
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\ref\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.pdb
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.csprojAssemblyReference.cache
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\DeviceManagmentPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\Smart-Home\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\TemperatureMenuPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.deps.json
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\ref\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.pdb
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\DeviceManagmentPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\TemperatureMenuPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.AssemblyInfoInputs.cache
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.AssemblyInfo.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\ref\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.pdb
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\LouversMenuPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\ScriptsPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\ScriptDetailPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\HouseMapPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\DeviceDetailPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.csprojAssemblyReference.cache
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\SecurityPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart Home System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\LightsPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.deps.json
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\ref\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\bin\Debug\netstandard2.0\Smart_Home_System.pdb
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\DeviceDetailPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\DeviceManagmentPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\HouseMapPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\LightsPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\LouversMenuPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\ScriptDetailPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\ScriptsPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\SecurityPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Views\TemperatureMenuPage.xaml.g.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.AssemblyInfoInputs.cache
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.AssemblyInfo.cs
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\ref\Smart_Home_System.dll
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.pdb
+C:\Users\Dalver\Documents\GitHub\SmartHome\Smart_Home_System\Smart Home System\Smart Home System\obj\Debug\netstandard2.0\Smart_Home_System.csprojAssemblyReference.cache
